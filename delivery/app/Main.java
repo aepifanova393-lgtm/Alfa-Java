@@ -7,7 +7,6 @@ import delivery.service.ParcelService;
 
 public class Main {
     public static void main(String[] args) {
-
         Parcel parcel = new Parcel(
                 "Ivan",
                 "Moscow",
@@ -31,9 +30,5 @@ public class Main {
 
         ParcelService p = new ParcelService ();
         p.printParcelsReport(parcels);
-
-
-
     }
-
 }
