@@ -12,7 +12,7 @@ public class App {
         String secondSurname = logo.getFakerSurname();
 
         System.out.println(FigletFont.convertOneLine(firstSurname));
-        System.out.println(FigletFont.convertOneLine("and"));
+        System.out.println(FigletFont.convertOneLine("&"));
         System.out.println(FigletFont.convertOneLine(secondSurname));
 
         System.out.println(logo.getName());
