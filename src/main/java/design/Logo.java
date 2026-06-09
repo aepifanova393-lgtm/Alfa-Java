@@ -30,6 +30,4 @@ public class Logo {
     public String getAddress() {
         return faker.address().fullAddress();
     }
-
-
 }
